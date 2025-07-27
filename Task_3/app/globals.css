@@ -1,0 +1,25 @@
+/* Tailwind base styles (v4-compatible) */
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+
+/* Fade animation for the NIKE watermark */
+@keyframes fade {
+  0%, 100% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+
+.animate-fade {
+  animation: fade 4s ease-in-out infinite;
+}
+
+/* Optional: Global body styles */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+}
