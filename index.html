@@ -4,30 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Minu Kumar Portfolio</title>
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
-  <!-- Font Awesome for Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- AOS Animation -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-  <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
-
-  <!-- Typed.js -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
-  <!-- SEO & Social Preview -->
-  <meta name="description" content="Portfolio of Minu Kumar, Computer Science Student and Web Developer.">
-  <meta property="og:title" content="Minu Kumar Portfolio">
-  <meta property="og:description" content="Web Developer | Coder | Computer Science Student">
-  <meta property="og:image" content="images/minu.png">
 </head>
 <body>
-  <!-- Header -->
   <header>
     <nav>
       <h1>Minu Kumar</h1>
@@ -40,13 +23,11 @@
     </nav>
   </header>
 
-  <!-- Hero -->
   <section class="hero">
     <a href="https://www.linkedin.com/in/minu-kumar-3779302b4/" target="_blank">
-      <img src="images/minu.png" alt="Portrait of Minu Kumar">
+      <img src="minu.png" alt="Minu Kumar">
     </a>
     <h2 id="typed-name"></h2>
-    <p class="tagline">Passionate about coding, web development, and building impactful projects 🚀</p>
     <script>
       const typed = new Typed("#typed-name", {
         strings: ["Hi, I'm Minu Kumar", "A Coder", "Web Developer", "Computer Science Student"],
@@ -57,32 +38,28 @@
     </script>
   </section>
 
-  <!-- About -->
   <section id="about" data-aos="fade-up">
     <h2>About Me</h2>
     <p>I'm a B.Tech Computer Science student at Haridwar University, graduating in 2027. I'm passionate about coding and web development, and have interned with Tata Technologies Limited and YBI Foundation. I enjoy building real-world projects like e-commerce websites and portfolio platforms.</p>
   </section>
 
-  <!-- Resume -->
-  <section id="resume" data-aos="fade-up">
+ <section id="resume" data-aos="fade-up">
   <h2>My Resume</h2>
   <a href="resume.pdf" class="resume-button" target="_blank">📄 View Resume</a>
   <a href="resume.pdf" download class="resume-button">⬇️ Download Resume</a>
 </section>
 
-
-  <!-- Projects -->
   <section id="projects" data-aos="fade-up">
     <h2>Projects</h2>
     <div class="project">
-      <img src="images/fashion.png" alt="Screenshot of Fashion Fiesta Website" loading="lazy">
+      <img src="fashion.png" alt="Fashion Fiesta Website">
       <div>
         <h3>Fashion Fiesta</h3>
         <p>An e-commerce shopping website built during my internship at Tata Technologies Limited. Designed for clothing categories with cart and pricing features.</p>
       </div>
     </div>
     <div class="project">
-      <img src="images/minukumar.jpg" alt="Screenshot of Portfolio Website" loading="lazy">
+      <img src="minukumar.jpg" alt="Portfolio Website">
       <div>
         <h3>Personal Portfolio</h3>
         <p>This portfolio website includes animated UI, responsive layout, fade-in effects, and integration with my GitHub and LinkedIn profiles.</p>
@@ -90,18 +67,14 @@
     </div>
   </section>
 
-  <!-- Contact -->
   <section id="contact" data-aos="fade-up">
     <h2>Contact Me</h2>
-    <p><i class="fas fa-envelope"></i> <a href="mailto:minuofficials@gmail.com">minuofficials@gmail.com</a></p>
-    <p><i class="fab fa-github"></i> <a href="https://github.com/Minu-Kumar" target="_blank">github.com/Minu-Kumar</a></p>
-    <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/minu-kumar-3779302b4/" target="_blank">linkedin.com/in/minu-kumar</a></p>
+    <p>Email: <a href="mailto:minuofficials@gmail.com">minuofficials@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/Minu-Kumar" target="_blank">github.com/Minu-Kumar</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/minu-kumar-3779302b4/" target="_blank">linkedin.com/in/minu-kumar-3779302b4</a></p>
   </section>
 
-  <!-- Scripts -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>AOS.init();</script>
+  <script src="script.js"></script>
 </body>
 </html>
-
 
